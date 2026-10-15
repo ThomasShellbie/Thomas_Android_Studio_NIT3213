@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Legacy launcher icon (API 24-25): blue circle with the graduation cap -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path android:fillColor="#FF2B5BB5" android:pathData="M0,24a24,24 0 1,0 48,0a24,24 0 1,0 -48,0Z" />
+    <group android:translateX="10" android:translateY="10" android:scaleX="1.1667" android:scaleY="1.1667">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M5,13.18v4L12,21l7,-3.82v-4L12,17l-7,-3.82zM12,3L1,9l11,6 9,-4.91V17h2V9L12,3z" />
+    </group>
+</vector>

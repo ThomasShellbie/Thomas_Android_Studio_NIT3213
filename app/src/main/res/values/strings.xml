@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">s8113459 Assignment 2</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in with your student ID and first name.</string>
+    <string name="campus_label">%1$s campus</string>
+    <string name="hint_username">Student ID</string>
+    <string name="helper_username">Numbers only, without the leading “s”</string>
+    <string name="hint_password">First name</string>
+    <string name="helper_password">Case sensitive, e.g. John</string>
+    <string name="sign_in">Sign in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="slow_server_hint">The server may take up to a minute to wake up on the first request.</string>
+    <string name="error_username_empty">Enter your student ID</string>
+    <string name="error_username_numeric">Student ID must contain numbers only</string>
+    <string name="error_password_empty">Enter your first name</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_credentials">Incorrect student ID or first name. Remember the first name is case sensitive.</string>
+    <string name="error_student_not_found">This student ID was not found for this campus.</string>
+    <string name="error_invalid_keypass">No data was found for this topic. Please sign in again.</string>
+    <string name="error_network">Cannot reach the server. Check your internet connection and try again.</string>
+    <string name="error_server">The server is having problems. Please try again shortly.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="topic_subtitle_loading">Topic: %1$s</string>
+    <plurals name="topic_subtitle">
+        <item quantity="one">Topic: %1$s · %2$d entity</item>
+        <item quantity="other">Topic: %1$s · %2$d entities</item>
+    </plurals>
+    <string name="empty_dashboard">There are no entities for this topic yet.</string>
+    <string name="retry">Try again</string>
+    <string name="logout">Log out</string>
+
+    <!-- Details -->
+    <string name="details_title">Details</string>
+    <string name="section_properties">Properties</string>
+    <string name="section_description">Description</string>
+    <string name="cd_back">Back</string>
+</resources>
